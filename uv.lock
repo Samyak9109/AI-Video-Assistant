@@ -28,6 +28,7 @@ dependencies = [
     { name = "torch" },
     { name = "torchaudio" },
     { name = "tqdm" },
+    { name = "whisper" },
     { name = "yt-dlp" },
 ]
 
@@ -54,6 +55,7 @@ requires-dist = [
     { name = "torch", specifier = ">=2.2.0" },
     { name = "torchaudio", specifier = ">=2.2.0" },
     { name = "tqdm", specifier = ">=4.66.0" },
+    { name = "whisper", specifier = ">=1.1.10" },
     { name = "yt-dlp", specifier = ">=2024.4.9" },
 ]
 
@@ -2685,6 +2687,15 @@ sdist = { url = "https://files.pythonhosted.org/packages/21/e6/26d09fab466b7ca9c
 wheels = [
     { url = "https://files.pythonhosted.org/packages/fa/a8/5b41e0da817d64113292ab1f8247140aac61cbf6cfd085d6a0fa77f4984f/websockets-15.0.1-py3-none-any.whl", hash = "sha256:f7a866fbc1e97b5c617ee4116daaa09b722101d4a3c170c787450ba409f9736f", size = 169743, upload-time = "2025-03-05T20:03:39.41Z" },
 ]
+
+[[package]]
+name = "whisper"
+version = "1.1.10"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "six" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/b4/c3/913cdd13ef3d882fa483981378a08cd0f018fd8dd95b6bf006b9bf1cfbc9/whisper-1.1.10.tar.gz", hash = "sha256:435b4fb843c4c752719bdf0511a652d5be710e9bb35ad9ebe3b133268ee31c44", size = 42835, upload-time = "2022-05-22T18:19:54.839Z" }
 
 [[package]]
 name = "xxhash"
